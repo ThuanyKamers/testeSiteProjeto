@@ -12,6 +12,21 @@ header {
     padding: 1rem;
 }
 
+nav {
+    margin: 1rem 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
 .home img {
     width: 100%;
     height: auto;
