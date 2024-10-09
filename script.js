@@ -1,4 +1,3 @@
-// Trocar imagem no card
 document.querySelectorAll('.trocar-imagem').forEach(img => {
     img.addEventListener('mouseover', () => {
         img.src = img.getAttribute('data-hover');
