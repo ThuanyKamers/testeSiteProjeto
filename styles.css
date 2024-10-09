@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.home img {
+    width: 100%;
+    height: auto;
+}
+
+.sobre-nos {
+    padding: 2rem;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: calc(25% - 2rem);
+    box-sizing: border-box;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.trocar-imagem {
+    width: 100%;
+    height: auto;
+    transition: all 0.3s;
+}
